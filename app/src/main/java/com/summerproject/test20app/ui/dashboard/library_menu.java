@@ -17,6 +17,4 @@ import com.summerproject.test20app.R;
 public class library_menu extends Fragment {
 
 
-
-
 }

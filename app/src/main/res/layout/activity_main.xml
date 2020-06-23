@@ -16,15 +16,14 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
+        android:layout_height="0px"
         android:background="@color/awesomeBlurple"
         android:gravity="center"
         android:textSize="20sp"
         android:weightSum="10"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/guideline3"
-        tools:ignore="MissingConstraints"
-        android:layout_height="0px">
-
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
         <Button
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -48,10 +47,10 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_weight="1"
+            android:background="@drawable/mybutton"
             android:text="@string/history"
             android:textColor="@color/awesomeBlack"
             android:textSize="15sp"
-            android:background="@drawable/mybutton"
             app:rippleColor="#33AAAAAA"
             app:strokeWidth="2dp" />
 
