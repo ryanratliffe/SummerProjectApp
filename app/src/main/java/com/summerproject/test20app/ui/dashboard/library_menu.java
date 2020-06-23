@@ -1,11 +1,9 @@
 package com.summerproject.test20app.ui.dashboard;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -16,5 +14,13 @@ import com.summerproject.test20app.R;
 
 public class library_menu extends Fragment {
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.library_menu);
+    }
+
+    private void setContentView(int library_menu) {
+    }
 
 }
