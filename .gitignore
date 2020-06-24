@@ -32,6 +32,7 @@ hs_err_pid*
 *.lock
 *.lock
 *.iml
+*.properties
 .gradle/6.1.1/executionHistory/executionHistory.bin
 .gradle/6.1.1/executionHistory/executionHistory.bin
 .gradle/6.1.1/executionHistory/executionHistory.lock
