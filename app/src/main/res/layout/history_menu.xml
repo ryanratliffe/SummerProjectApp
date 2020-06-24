@@ -1,19 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.home.history_menu">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.home.history_menu">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragment_history_menu"
-        android:name="ui.home.history_menu"
+    <LinearLayout
+        android:id="@+id/verticallinearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/button_horizontal_margin"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:layout_marginRight="@dimen/button_horizontal_margin"
+        android:layout_marginBottom="@dimen/button_vertical_margin"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints" >
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
 
-    </androidx.fragment.app.FragmentContainerView>
+        <LinearLayout
+            android:id="@+id/horizontallinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/verticallinearLayout"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints">
+
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/history"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/horizontallinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/verticallinearLayout"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/library"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/theme"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/horizontallinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/verticallinearLayout"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/library"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/theme"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/horizontallinearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/verticallinearLayout"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:weightSum="2"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/library"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="@dimen/button_horizontal_margin"
+                android:layout_marginTop="@dimen/button_vertical_margin"
+                android:layout_marginRight="@dimen/button_horizontal_margin"
+                android:layout_marginBottom="@dimen/button_vertical_margin"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:text="@string/theme"
+                android:textColor="@color/awesomeBlack"
+                android:textSize="15sp"
+                app:rippleColor="#33AAAAAA"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
