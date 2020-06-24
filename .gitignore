@@ -16,6 +16,7 @@
 *.nar
 *.ear
 *.zip
+*.ser
 *.tar.gz
 *.rar
 
