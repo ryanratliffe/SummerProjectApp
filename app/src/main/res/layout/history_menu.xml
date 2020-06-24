@@ -31,7 +31,6 @@
             tools:ignore="MissingConstraints">
 
 
-
             <Button
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="80dp"
@@ -42,7 +41,7 @@
                 android:layout_marginBottom="@dimen/button_vertical_margin"
                 android:layout_weight="1"
                 android:background="@drawable/mybutton"
-                android:text="history?"
+                android:text="@string/history"
                 android:textColor="@color/awesomeBlack"
                 android:textSize="15sp"
                 app:rippleColor="#33AAAAAA"
