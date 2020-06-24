@@ -136,50 +136,6 @@
                 app:strokeWidth="2dp" />
 
         </LinearLayout>
-        <LinearLayout
-            android:id="@+id/horizontallinearLayout4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toTopOf="@id/verticallinearLayout"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:weightSum="2"
-            tools:ignore="MissingConstraints">
-
-            <Button
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="80dp"
-                android:layout_height="150dp"
-                android:layout_marginLeft="@dimen/button_horizontal_margin"
-                android:layout_marginTop="@dimen/button_vertical_margin"
-                android:layout_marginRight="@dimen/button_horizontal_margin"
-                android:layout_marginBottom="@dimen/button_vertical_margin"
-                android:layout_weight="1"
-                android:background="@drawable/mybutton"
-                android:text="@string/library"
-                android:textColor="@color/awesomeBlack"
-                android:textSize="15sp"
-                app:rippleColor="#33AAAAAA"
-                app:strokeWidth="2dp" />
-
-            <Button
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="80dp"
-                android:layout_height="150dp"
-                android:layout_marginLeft="@dimen/button_horizontal_margin"
-                android:layout_marginTop="@dimen/button_vertical_margin"
-                android:layout_marginRight="@dimen/button_horizontal_margin"
-                android:layout_marginBottom="@dimen/button_vertical_margin"
-                android:layout_weight="1"
-                android:background="@drawable/mybutton"
-                android:text="@string/theme"
-                android:textColor="@color/awesomeBlack"
-                android:textSize="15sp"
-                app:rippleColor="#33AAAAAA"
-                app:strokeWidth="2dp" />
-
-        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
