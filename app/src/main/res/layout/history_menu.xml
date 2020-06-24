@@ -41,7 +41,7 @@
                 android:layout_marginBottom="@dimen/button_vertical_margin"
                 android:layout_weight="1"
                 android:background="@drawable/mybutton"
-                android:text="@string/history"
+                android:text="history?"
                 android:textColor="@color/awesomeBlack"
                 android:textSize="15sp"
                 app:rippleColor="#33AAAAAA"
