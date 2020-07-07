@@ -4,10 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
+    android:layout_height="wrap_content"
+    tools:ignore="ExtraText">
     <Button
-        android:id="@+id/library_menu_button"
+        android:id="@+id/history_menu_button"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -15,56 +15,15 @@
         android:background="@drawable/mybutton"
         android:bottomLeftRadius="10dp"
         android:bottomRightRadius="10dp"
-        android:gravity="left|center_vertical"
-        android:paddingLeft="@dimen/button_horizontal_margin"
-        android:text="@string/library"
+        android:text="item"
         android:textColor="@color/awesomeBlack"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:topLeftRadius="10dp"
         android:topRightRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="-4dp"
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="80dp" />/>
-
-
+        tools:ignore="MissingConstraints,RtlHardcoded"
+        tools:layout_editor_absoluteY="-4dp">
+    </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-<LinearLayout
-android:id="@+id/verticallinearLayout"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:layout_marginLeft="@dimen/button_horizontal_margin"
-android:layout_marginTop="@dimen/button_vertical_margin"
-android:layout_marginRight="@dimen/button_horizontal_margin"
-android:layout_marginBottom="@dimen/button_vertical_margin"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintStart_toStartOf="parent"
-tools:layout_editor_absoluteY="1dp">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</LinearLayout>
