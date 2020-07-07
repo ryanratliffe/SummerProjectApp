@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.summerproject.test20app.ui.dashboard.library_menu"
+        android:name="com.summerproject.test20app.ui.libraries.library_menu"
         android:label="@string/title_dashboard"
         tools:layout="@layout/history_menu" />
 

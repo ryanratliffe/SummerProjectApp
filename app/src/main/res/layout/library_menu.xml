@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.dashboard.library_menu">
+    tools:context=".ui.libraries.library_menu">
 
     <LinearLayout
         android:id="@+id/verticallinearLayout"
@@ -31,6 +31,7 @@
             tools:ignore="MissingConstraints">
 
             <Button
+                android:id="@+id/cancer_button"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="80dp"
                 android:layout_height="150dp"
@@ -40,7 +41,7 @@
                 android:layout_marginBottom="@dimen/button_vertical_margin"
                 android:layout_weight="1"
                 android:background="@drawable/mybutton"
-                android:text="@string/library"
+                android:text="@string/cancer"
                 android:textColor="@color/awesomeBlack"
                 android:textSize="15sp"
                 app:rippleColor="#33AAAAAA"
