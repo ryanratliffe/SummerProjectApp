@@ -30,6 +30,7 @@ hs_err_pid*
 *.lock
 
 # User-specific configurations
+.idea
 .idea/caches/
 .idea/libraries/
 .idea/shelf/
